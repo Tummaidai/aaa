@@ -63,3 +63,21 @@ plt.xlabel('Survived')
 plt.ylabel('Count')
 
 st.pyplot(plt)
+
+html_4 = """
+<div style="background-color:#FFFFFF;border-bottom: 3px solid #ffffff;border-top: 3px solid #ffffff;">
+<center><h3>Count of Survived by Embarked</h3></center>
+</div>
+"""
+st.markdown(html_4, unsafe_allow_html=True)
+st.markdown("")
+
+
+
+plt.figure(figsize=(15,5))
+sns.countplot(x='Survived', data=gender_data, hue='Embarked')
+plt.title('Count of Survived by Embarked')
+plt.xlabel('Survived')
+plt.ylabel('Count')
+
+st.pyplot(plt)
