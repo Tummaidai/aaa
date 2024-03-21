@@ -57,9 +57,9 @@ st.markdown("")
 
 
 plt.figure(figsize=(15,5))
-sns.countplot(x='Region', data=gender_data )
-plt.title('ยอดขายของแต่ละภูมิภาค')
-plt.xlabel('Region')
-plt.ylabel('Sales')
+sns.countplot(x='Survived', data=gender_data, hue='Pclass')
+plt.title('Count of Survived by Pclass')
+plt.xlabel('Survived')
+plt.ylabel('Count')
 
 st.pyplot(plt)
