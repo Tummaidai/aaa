@@ -47,8 +47,8 @@ st.pyplot(plt)
 
 
 html_2 = """
-<div style="background-color:#0E1117;border-bottom: 3px solid #ffffff;border-top: 3px solid #ffffff;">
-<center><h3>ยอดขายของแต่ละภูมิภาค</h3></center>
+<div style="background-color:#FFFFFF;border-bottom: 3px solid #ffffff;border-top: 3px solid #ffffff;">
+<center><h3></h3>Count of Survived by Pclass</center>
 </div>
 """
 st.markdown(html_2, unsafe_allow_html=True)
