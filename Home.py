@@ -5,7 +5,7 @@ import pandas as pd
 
 gender_data=pd.read_csv('./data/titanic_data.csv')
 html_3 = """
-<div style="background-color:#0E1117;border-bottom: 3px solid #ffffff;border-top: 3px solid #ffffff;">
+<div style="background-color:#FFFFFF;border-bottom: 3px solid #ffffff;border-top: 3px solid #ffffff;">
 <center><h3>การทำ Data Visualization เรื่องผู้รอดชีวิตจากเรือไททานิค</h3></center>
 </div>
 """
@@ -13,7 +13,7 @@ st.markdown(html_3, unsafe_allow_html=True)
 st.markdown("")
 
 html_0 = """
-<div style="background-color:#0E1117;border-bottom: 3px solid #ffffff;border-top: 3px solid #ffffff;">
+<div style="background-color:#FFFFFF;border-bottom: 3px solid #ffffff;border-top: 3px solid #ffffff;">
 <center><h3>Example data table</h3></center>
 </div>
 """
@@ -27,7 +27,7 @@ st.write(gender_data.head(10))
 
 
 html_1 = """
-<div style="background-color:#0E1117;border-bottom: 3px solid #ffffff;border-top: 3px solid #ffffff;">
+<div style="background-color:#FFFFFF;border-bottom: 3px solid #ffffff;border-top: 3px solid #ffffff;">
 <center><h3>Count of Category by Region</h3></center>
 </div>
 """
